@@ -1,0 +1,31 @@
+HWConfig:
+
+    dma_cycles: 0.015625
+    # for depthwise
+    hx: 15
+    wx: 15
+    cx: 3
+    mac_wx: 3
+    mac_wx_type: 5
+    mac_cx: 1
+
+
+    # for pointwise
+    hxx: 15
+    wxx: 15
+    cxx: 7
+    fx: 3
+    mac_wxx: 5
+    mac_wxx_type: 7
+    mac_cxx: 7
+    mac_fx: 3
+
+    # for pointwise
+    hxx2: 13
+    wxx2: 13
+    cxx2: 3
+    fx2: 7
+    mac_wxx2: 5
+    mac_wxx2_type: 7
+    mac_cxx2: 3
+    mac_fx2: 7

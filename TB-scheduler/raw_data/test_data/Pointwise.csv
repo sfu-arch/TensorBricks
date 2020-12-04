@@ -1,0 +1,2 @@
+,name,type,kernel_size,ifm,ifm_vol,ofm,ofm_vol,wgt_vol,mac,attr_type,groups,stride,padding,bias
+0,conv1,Conv2d,"(1, 1)","(1, 4, 7, 7)",196,"(1, 10, 7, 7)",490,40,1960,PW,1,"(1, 1)","(0, 0)",False

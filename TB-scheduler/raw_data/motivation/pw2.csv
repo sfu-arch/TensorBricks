@@ -1,0 +1,2 @@
+,name,type,kernel_size,ifm,ifm_vol,ofm,ofm_vol,wgt_vol,mac,attr_type,groups,stride,padding,bias
+38,features.13.conv.2,Conv2d,"(1, 1)","(1, 576, 14, 14)",112896,"(1, 96, 14, 14)",18816,55296,10838016,PW,1,"(1, 1)","(0, 0)",False

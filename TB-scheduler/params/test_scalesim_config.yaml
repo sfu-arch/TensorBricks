@@ -1,0 +1,13 @@
+HWConfig:
+    # In eyeriss: only X=Fx and Y=Cx is used
+
+    dma_cycles: 0.015625
+
+    # for CONV
+    fx: 3
+    cxx: 7
+    mac_wxx: 3
+    mac_wxx_type: 7
+    wxx: 15
+    X: 7
+    Y: 7

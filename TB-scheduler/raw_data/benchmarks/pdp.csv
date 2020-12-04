@@ -1,0 +1,4 @@
+,name,type,kernel_size,ifm,ifm_vol,ofm,ofm_vol,wgt_vol,mac,attr_type,groups,stride,padding,bias
+0,model.0.0,Conv2d,"(1, 1)","(1, 3, 7, 7)",147,"(1, 6, 7, 7)",294,18,882,PW,1,"(1, 1)","(0, 0)",False
+1,model.0.1,Conv2d,"(3, 3)","(1, 6, 7, 7)",294,"(1, 6, 5, 5)",150,54,1350,DW,6,"(1, 1)","(0, 0)",False
+2,model.0.2,Conv2d,"(1, 1)","(1, 6, 5, 5)",150,"(1, 3, 5, 5)",75,18,450,PW,1,"(1, 1)","(0, 0)",False

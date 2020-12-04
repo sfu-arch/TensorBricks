@@ -1,0 +1,31 @@
+HWConfig:
+
+    dma_cycles: 0.015625 # Calculated from our runs in AWS F1 instance in the hardware.
+    # for depthwise in single, two, or three layer dataflow schedules
+    hx: 15
+    wx: 15
+    cx: 3
+    mac_wx: 2
+    mac_wx_type: 7 # 7x7 MAC
+    mac_cx: 0
+
+
+    # for first pointwise in single, two layer or three layer dataflow schedules
+    hxx: 15
+    wxx: 15
+    cxx: 7
+    fx: 3
+    mac_wxx: 3
+    mac_wxx_type: 7 # 7x7 MAC
+    mac_cxx: 0
+    mac_fx: 0
+
+    # for last pointwise layer in three layer cross-layer dataflow schedules
+    hxx2: 13
+    wxx2: 13
+    cxx2: 3
+    fx2: 7
+    mac_wxx2: 2
+    mac_wxx2_type: 7 # 7x7 MAC
+    mac_cxx2: 0
+    mac_fx2: 0

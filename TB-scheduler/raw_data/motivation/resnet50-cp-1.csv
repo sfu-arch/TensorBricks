@@ -1,0 +1,3 @@
+,name,type,kernel_size,ifm,ifm_vol,ofm,ofm_vol,wgt_vol,mac,attr_type,groups,stride,padding,bias
+12,layer2.0.conv2,Conv2d,"(3, 3)","(1, 128, 56, 56)",401408,"(1, 128, 28, 28)",100352,147456,115605504,3d,1,"(2, 2)","(1, 1)",False
+13,layer2.0.conv3,Conv2d,"(1, 1)","(1, 128, 28, 28)",100352,"(1, 512, 28, 28)",401408,65536,51380224,PW,1,"(1, 1)","(0, 0)",False
