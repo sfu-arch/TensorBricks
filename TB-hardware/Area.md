@@ -5,8 +5,6 @@ We present the results of FPGA synthesis tools. Here we choose hyper-parameters 
 
 ![PieChart](https://www.dropbox.com/s/3njtn7bg5c0rgsb/PieChart.png?raw=1)
 
-![PieChart](https://www.dropbox.com/s/3njtn7bg5c0rgsb/PieChart.png?raw=1)
-
 | power   | 36.3W         |
 |---------|---------------|
 | fps     | 128           |
