@@ -3,13 +3,13 @@
 
 | DNN | Inverted Residual | Depth Separable | Skip | Bottleneck | 1xN + Nx1 Rank |
 |-|-|-|-|-|-|
+| EfficientNet | Yes | Yes | Yes | Yes | - |
+| Mobilenet_v2 | Yes | Yes | Yes | Yes | - |
+| Mnasnet1_0 | Yes | Yes | Yes | Yes | - |
 | PNasNet | - | Yes | Yes | Yes | Yes |
 | NasNet | - | Yes | Yes | Yes | Yes |
 | AmoebaNet | - | Yes | Yes | Yes | Yes |
 | FbNet | - | Yes | Yes | Yes | Yes |
-| EfficientNet | Yes | Yes | Yes | Yes | - |
-| Mobilenet_v2 | Yes | Yes | Yes | Yes | - |
-| Mnasnet1_0 | Yes | Yes | Yes | Yes | - |
 | Xception | - | Yes | Yes | Yes | - |
 | Mobilenet | - | Yes | Yes | Yes | - |
 | DenseNet | - | - | Yes | Yes | - |
