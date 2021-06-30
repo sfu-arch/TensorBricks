@@ -2,7 +2,9 @@
 This repository contains the "TB-Scheduler" and "TB-hardware". 
 * [TB-Scheduler](TB-scheduler/README.md)
 * [TB-Hardware](TB-hardware/README.md)
-
+* The end to end methodology can be found in [Methodology](Methodology.md)
+* Diffence compared coarse grain cross layer (Tangram) vs fine grain cross-layer (TensorBricks) schedule can be found in 
+  [Tangram vs TensorBricks](Tangram_vs_TB.md)
 
 # Tensorbricks Schedule 
 * This project explores outer and inner dataflow schedules for 
@@ -24,4 +26,4 @@ The unit of operand in all these operators is a tensor (rank and shape can be se
     * *layer-buffers* that capture data-reuse across layers and simplify the process of exchanging data across layers.
     * The TB-hardware  implements the chisel hardware to execute cross-layer dataflows. 
 * The link to the README can be found in [TB-Hardware](TB-hardware/README.md)
-  
+* Results of FPGA Area can be found in [Area](Area.md)
