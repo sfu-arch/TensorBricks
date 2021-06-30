@@ -271,7 +271,7 @@ In Tensor-brick we allocate the hardware brick resources in a non-uniform manner
 # DNN with LRCONV support 
 | DNN | Inverted Residual | Depth Separable | Skip | Bottleneck | 1xN + Nx1 Rank |
 |-|-|-|-|-|-|
-| EfficientNet | [x] |  |  |  |  |
+| EfficientNet | [x]. |  |  |  |  |
 | Xception |  |  |  |  |  |
 | DenseNet |  |  |  |  |  |
 | Inception-V3 |  |  |  |  |  |
