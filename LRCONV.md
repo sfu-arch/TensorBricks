@@ -1,5 +1,5 @@
 
-# DNN with LRCONV support 
+# DNN Architectures with LRCONV operations 
 
 | DNN | Inverted Residual | Depth Separable | Skip | Bottleneck | 1xN + Nx1 Rank |
 |-|-|-|-|-|-|
