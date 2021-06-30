@@ -3,6 +3,7 @@
 
 | DNN | Inverted Residual | Depth Separable | Skip | Bottleneck | 1xN + Nx1 Rank |
 |-|-|-|-|-|-|
+| PNasNet | - | Yes | Yes | Yes | Yes |
 | NasNet | - | Yes | Yes | Yes | Yes |
 | AmoebaNet | - | Yes | Yes | Yes | Yes |
 | FbNet | - | Yes | Yes | Yes | Yes |
