@@ -1,5 +1,6 @@
 # TensorBricks
-This work has been accepted in PACT 2021. The paper is called "X-Layer: Building Composable Pipelined Dataflows for Low-Rank Convolutions".
+This work has been accepted in the 30th International Conference on Parallel Architectures and Compilation Techniques (PACT 2021). 
+The paper is called "X-Layer: Building Composable Pipelined Dataflows for Low-Rank Convolutions".
 
 This repository contains the "TB-Scheduler" and "TB-hardware". 
 * [TB-Scheduler](TB-scheduler/README.md)
